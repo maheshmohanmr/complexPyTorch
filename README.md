@@ -31,7 +31,6 @@ Following [[C. Trabelsi et al., International Conference on Learning Representat
 
 The syntax is supposed to copy the one of the standard real functions and modules from PyTorch. 
 The names are the same as in `nn.modules` and `nn.functional` except that they start with `Complex` for Modules, e.g. `ComplexRelu`, `ComplexMaxPool2d` or `complex_` for functions, e.g. `complex_relu`, `complex_max_pool2d`.
-The only usage difference is that the forward function takes two tensors, corresponding to real and imaginary parts, and returns two ones too.
 
 ## BatchNorm
 
